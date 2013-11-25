@@ -54,7 +54,7 @@ function christmas_joy_theme_setup() {
 				'url'           => '%2$s/images/headers/christmas-tree.jpg',
 				'thumbnail_url' => '%2$s/images/headers/christmas-tree-thumb.jpg',
 				/* Translators: Header image description. */
-				'description'   => __( 'Faith Christmas Ornament', 'christmas-joy' )
+				'description'   => __( 'Christmas Joy default header', 'christmas-joy' )
 			)
 		)
 	);
