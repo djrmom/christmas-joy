@@ -1,10 +1,10 @@
 <?php
 /**
  * @package    ChristmasJoy
- * @version    0.1.0
+ * @version    1.0.0
  * @author     Jenny Ragan <jenny@jennyragan.com>
  * @copyright  Copyright (c) 2013, Jenny Ragan
- * @link       http://christmasjoy.djrthemes.com
+ * @link       http://themehybrid.com/themes/christmas-joy
  * @license    http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
 
