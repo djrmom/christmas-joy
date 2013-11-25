@@ -34,6 +34,12 @@
  * images/headers/christmas-tree.jpg modified from photo by Dennis Hill, http://www.fontplay.com/freephotos/index.htm
  */
 
+/**
+ * 665f54 - brown
+ * 8d8f57 - green
+ * c4555c - red
+ */
+
 body, .media-shortcode-extend .media-info {
 	color: #665f54;
 }
@@ -99,6 +105,16 @@ input[type="tel"], input[type="text"], input[type="time"],
 input[type="url"], input[type="week"], textarea, select {
 	background: #c7ac90;
 	border-color: #c7ac90;
+}
+
+@media only screen and (max-width: 799px) {
+	#menu-primary li a:hover, #menu-secondary li a:hover {
+		background: #665f54;
+	}
+	#menu-primary li a, #menu-secondary li a {
+		background: #8d8f57;
+		border-color: #8d8f57;
+	}
 }
 
 @media only screen and (min-width: 800px) {
