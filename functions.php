@@ -42,7 +42,7 @@ function christmas_joy_theme_setup() {
 		'custom-header', 
 		array(
 			'default-text-color' => '4c463e',
-			'default-image'      => get_stylesheet_directory_uri() . '/christmas-tree.jpg',
+			'default-image'      => '%2$s/images/headers/christmas-tree.jpg',
 			'random-default'     => false,
 		)
 	);
