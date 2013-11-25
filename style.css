@@ -38,12 +38,12 @@ body, .media-shortcode-extend .media-info {
 	color: #665f54;
 }
 
-.entry h1,
-.entry h2,
-.entry h3,
-.entry h4,
-.entry h5,
-.entry h5,
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
 #site-title {
 	font-family: "Old Standard TT", "Times New Roman", serif;
 }
