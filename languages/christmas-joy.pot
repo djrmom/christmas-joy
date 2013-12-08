@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Christmas Joy 1.0.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/christmas-joy\n"
-"POT-Creation-Date: 2013-11-25 22:26:08+00:00\n"
+"POT-Creation-Date: 2013-12-08 18:15:26+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,7 +15,7 @@ msgstr ""
 #. Translators: Header image description.
 
 #: functions.php:57
-msgid "Faith Christmas Ornament"
+msgid "Christmas Joy default header"
 msgstr ""
 #. Theme Name of the plugin/theme
 msgid "Christmas Joy"
@@ -26,7 +26,7 @@ msgid "http://themehybrid.com/themes/christmas-joy"
 msgstr ""
 
 #. Description of the plugin/theme
-msgid "Christmas colors for Stargazer theme"
+msgid "Celebrating the season with a Christmas child theme for the Stargazer parent theme."
 msgstr ""
 
 #. Author of the plugin/theme
