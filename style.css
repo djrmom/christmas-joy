@@ -2,10 +2,10 @@
  * Theme Name:  Christmas Joy
  * Theme URI:   http://themehybrid.com/themes/christmas-joy
  * Description: Celebrating the season with a Christmas child theme for the Stargazer parent theme.
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      Jenny Ragan
  * Author URI:  http://djrthemes.com
- * Tags:        one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, post-formats, rtl-language-support, theme-options, threaded-comments, translation-ready
+ * Tags:        one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, post-formats, rtl-language-support, theme-options, threaded-comments, translation-ready, blog, holiday
  * Text Domain: christmas-joy
  * License:     GNU General Public License v2.0 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -55,7 +55,8 @@ h5,
 .entry h2,
 .entry h3,
 .entry h4,
-.entry h5 {
+.entry h5,
+.font-headlines {
 	font-family: "Old Standard TT", "Times New Roman", serif;
 }
 
@@ -86,11 +87,7 @@ li.ping, .comment-content, .clean-my-archives .day-duplicate .day,
 	border-color: #c7ac90;
 }
 
-#menu-primary, #menu-primary .search-form > div, #footer,
-.audio-shortcode-wrap, .media-shortcode-extend .media-info,
-.media-info-toggle, .entry-content .media-info-toggle,
-.wp-audio-shortcode.mejs-container, .mejs-controls, .mejs-volume-button .mejs-volume-slider,
-.mejs-overlay-play .mejs-overlay-button::after, .mejs-time-rail .mejs-time-float {
+#menu-primary, #menu-primary .search-form > div, #footer {
 	background: #665f54;
 }
 
@@ -103,16 +100,7 @@ li.ping, .comment-content, .clean-my-archives .day-duplicate .day,
 	color: #8d8f57;
 }
 
-input[type="number"], input[type="date"], input[type="datetime"],
-input[type="datetime-local"], input[type="email"],
-input[type="month"], input[type="password"], input[type="search"],
-input[type="tel"], input[type="text"], input[type="time"],
-input[type="url"], input[type="week"], textarea, select {
-	background: #c7ac90;
-	border-color: #c7ac90;
-}
-
-@media only screen and (max-width: 799px) {
+@media only screen and (max-width: 1024px) {
 	#menu-primary li a:hover, #menu-secondary li a:hover {
 		background: #665f54;
 	}
@@ -120,9 +108,15 @@ input[type="url"], input[type="week"], textarea, select {
 		background: #8d8f57;
 		border-color: #8d8f57;
 	}
+	#menu-primary li a,
+	#menu-secondary li a,
+	#menu-secondary .menu-toggle button {
+		background: #665f54;
+		border-color: #665f54;
+	}
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1025px) {
 	#menu-primary ul ul li a:hover, #menu-secondary ul ul li a:hover {
 		background: #8d8f57;
 	}
